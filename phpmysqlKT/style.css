@@ -1,0 +1,66 @@
+/* Üldised stiilid */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Raamatukaardid */
+.book-card {
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsiivsus */
+@media (max-width: 768px) {
+    .book-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Admin paneeli tabelid */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Alertid */
+.alert {
+    margin-top: 20px;
+}
+
+/* Modal sisu */
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Nuppude stiilid */
+.btn-library {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+.btn-library:hover {
+    background-color: #5a6268;
+    color: white;
+}
